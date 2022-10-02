@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "secure": false,
+  "main": "server.jsx",
+  "scripts": {
+    "start": "nodemon server.jsx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-iot-data-plane": "^3.163.0",
+    "@mui/material": "^5.10.5",
+    "aws-iot-device-sdk": "^2.2.12",
+    "body-parser": "^1.20.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19",
+    "prop-types": "^15.8.1",
+    "react-select": "^5.4.0"
+  }
+}
